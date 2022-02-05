@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <picture>
+      <!-- WebP -->
+      <!-- coffee-maker mobile -->
+      <source
+        type="image/webp"
+        media="(max-width:425px)"
+        srcset="
+          ./images/coffee-maker-mobile-webp.webp    1x,
+          ./images/coffee-maker-mobile-webp@2x.webp 2x
+        "
+      />
+      <!-- coffee-maker tablet -->
+      <source
+        type="image/webp"
+        media="(max-width:768px)"
+        srcset="
+          ./images/coffee-maker-tablet-webp.webp    1x,
+          ./images/coffee-maker-tablet-webp@2x.webp 2x
+        "
+      />
+      <!-- coffee-maker desktop -->
+      <source
+        type="image/webp"
+        srcset="
+          ./images/coffee-maker-desktop-webp.webp    1x,
+          ./images/coffee-maker-desktop-webp@2x.webp 2x
+        "
+      />
+
+      <img
+        src="./images/coffee-maker-desktop.jpg"
+        alt="coffee maker"
+        width="445"
+        height="520"
+        srcset="
+          ./images/coffee-maker-desktop.jpg    1x,
+          ./images/coffee-maker-desktop@2x.jpg 2x
+        "
+      />
+    </picture>
+    <picture>
+      <!-- WebP -->
+      <source
+        type="image/webp"
+        media="(max-width:425px)"
+        srcset="
+          ./images/coffee-mobile-webp.webp    1x,
+          ./images/coffee-mobile-webp@2x.webp 2x
+        "
+      />
+      <source
+        type="image/webp"
+        media="(max-width:768px)"
+        srcset="
+          ./images/coffee-tablet-webp.webp    1x,
+          ./images/coffee-tablet-webp@2x.webp 2x
+        "
+      />
+      <source
+        type="image/webp"
+        srcset="
+          ./images/coffee-desktop-webp.webp    1x,
+          ./images/coffee-desktop-webp@2x.webp 2x
+        "
+      />
+      <!-- Jpeg Defult -->
+      <!-- mobile -->
+      <source
+        media="(max-width:425px)"
+        srcset="
+          ./images/coffee-mobile-webp.jpg    1x,
+          ./images/coffee-mobile-webp@2x.jpg 2x
+        "
+      />
+      <!-- tablet -->
+
+      <source
+        media="(max-width:768px)"
+        srcset="
+          ./images/coffee-tablet-webp.jpg    1x,
+          ./images/coffee-tablet-webp@2x.jpg 2x
+        "
+      />
+      <!-- desktop -->
+      <source
+        type="image/webp"
+        srcset="
+          ./images/coffee-desktop-webp.webp    1x,
+          ./images/coffee-desktop-webp@2x.webp 2x
+        "
+      />
+
+      <img
+        src="./images/coffee.jpg"
+        width="445"
+        height="474"
+        srcset="./images/coffee.jpg 1x, ./images/coffee@2x.jpg 2x"
+        alt="a cap of coffee"
+      />
+    </picture>
+  </body>
+</html>
